@@ -1,0 +1,24 @@
+div.c-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-control-hover{
+  background: rgba(50, 50, 50, 0.3)
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  margin-bottom: 30;
+}
+
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > video,
+.carousel-inner > .carousel-item > video > source,
+.carousel-inner > .carousel-item > a > img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  object-fit: contain;
+  object-position: center center;
+}
